@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: #0eb6c2; /* A bright cyan color for the text */
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    overflow: hidden; /* Keeps it contained */
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    /* This adds the slight neon glow */
+    text-shadow: 0 0 5px #20c20e; 
+    /* This creates the fading effect at the bottom */
+    opacity: 0.8; 
+}
